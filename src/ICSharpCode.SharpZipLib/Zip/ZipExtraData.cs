@@ -159,6 +159,12 @@ namespace ICSharpCode.SharpZipLib.Zip
 				// bit 2           if set, creation time is present
 
 				_flags = (Flags)helperStream.ReadByte();
+
+				// Length of data should actually be 1 + 2 * no of bits in flags.
+				var numOfFlags = HammingWeight((byte)_flags);
+				var minSize = numOfFlags * 2 + 1;
+				if (count < minSize) return;
+
 				if (((_flags & Flags.ModificationTime) != 0))
 				{
 					int iTime = helperStream.ReadLEInt();
@@ -186,6 +192,16 @@ namespace ICSharpCode.SharpZipLib.Zip
 						new TimeSpan(0, 0, 0, iTime, 0);
 				}
 			}
+		}
+
+		private static int HammingWeight(byte value)
+		{
+			int sum = 0;
+			while (value > 0) {
+				sum += value & 0x01;
+				value >>= 1;
+			}
+			return sum;
 		}
 
 		/// <summary>
