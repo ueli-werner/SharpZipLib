@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-		<TargetFrameworks>net6.0;net462</TargetFrameworks>
+		<TargetFrameworks>net6.0;net48</TargetFrameworks>
     <ApplicationIcon />
     <StartupObject />
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\..\assets\ICSharpCode.SharpZipLib.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\..\assets\Miag.SharpZipLib.snk</AssemblyOriginatorKeyFile>
     <PublicSign>true</PublicSign>
 		<LangVersion>8.0</LangVersion>
   </PropertyGroup>
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.csproj" />
+    <ProjectReference Include="..\..\src\ICSharpCode.SharpZipLib\Miag.SharpZipLib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,8 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\assets\ICSharpCode.SharpZipLib.snk">
-      <Link>ICSharpCode.SharpZipLib.snk</Link>
+    <None Include="..\..\assets\Miag.SharpZipLib.snk">
+      <Link>Miag.SharpZipLib.snk</Link>
     </None>
   </ItemGroup>
 

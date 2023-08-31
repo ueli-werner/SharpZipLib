@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28705.295
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Configuration", "Solution Configuration", "{F1097E98-4DEB-4A0A-81EE-5CEC667EBDF0}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Configuration", "S
 		Rebracer.xml = Rebracer.xml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.SharpZipLib", "src\ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.csproj", "{C53BEB8A-0989-43A7-B3EC-F7028749FA71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miag.SharpZipLib", "src\ICSharpCode.SharpZipLib\Miag.SharpZipLib.csproj", "{C53BEB8A-0989-43A7-B3EC-F7028749FA71}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.SharpZipLib.Tests", "test\ICSharpCode.SharpZipLib.Tests\ICSharpCode.SharpZipLib.Tests.csproj", "{82211166-9C45-4603-8E3A-2CA2EFFCBC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miag.SharpZipLib.Tests", "test\ICSharpCode.SharpZipLib.Tests\Miag.SharpZipLib.Tests.csproj", "{82211166-9C45-4603-8E3A-2CA2EFFCBC26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICSharpCode.SharpZipLib.Benchmark", "benchmark\ICSharpCode.SharpZipLib.Benchmark\ICSharpCode.SharpZipLib.Benchmark.csproj", "{C51E638B-DDD0-48B6-A6BD-EBC4E6A104C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miag.SharpZipLib.Benchmark", "benchmark\ICSharpCode.SharpZipLib.Benchmark\Miag.SharpZipLib.Benchmark.csproj", "{C51E638B-DDD0-48B6-A6BD-EBC4E6A104C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

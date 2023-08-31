@@ -5,7 +5,7 @@
     <IsTrimmable>true</IsTrimmable>
     <EnableTrimAnalyzer>true</EnableTrimAnalyzer>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>../../assets/ICSharpCode.SharpZipLib.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../../assets/Miag.SharpZipLib.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -16,7 +16,7 @@
     <Version>1.4.2</Version>
     <FileVersion>$(Version).13</FileVersion>
     <AssemblyVersion>$(FileVersion)</AssemblyVersion>
-    <PackageId>SharpZipLib</PackageId>
+    <PackageId>MiagSharpZipLib</PackageId>
     <Company>ICSharpCode</Company>
     <Authors>ICSharpCode</Authors>
     <Description>SharpZipLib (#ziplib, formerly NZipLib) is a compression library for Zip, GZip, BZip2, and Tar written entirely in C# for .NET. It is implemented as an assembly (installable in the GAC), and thus can easily be incorporated into other projects (in any .NET language)</Description>

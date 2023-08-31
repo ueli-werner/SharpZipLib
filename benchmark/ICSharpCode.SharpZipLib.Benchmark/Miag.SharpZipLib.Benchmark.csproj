@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6.0;netcoreapp3.1;net462</TargetFrameworks>
+    <TargetFrameworks>net6.0;netcoreapp3.1;net48</TargetFrameworks>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\src\ICSharpCode.SharpZipLib\ICSharpCode.SharpZipLib.csproj" />
+	  <ProjectReference Include="..\..\src\ICSharpCode.SharpZipLib\Miag.SharpZipLib.csproj" />
 	</ItemGroup>
 
 </Project>
